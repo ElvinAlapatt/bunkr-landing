@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: "klick-regular";
-  src: url("/fonts/klick-regular.otf") format("opentype");
+  src: url("/fonts/klick-regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "klick-blurred";
-  src: url("/fonts/klick-blurred.ttf") format("truetype");
+  src: url("/fonts/klick-blurred.woff2") format("woff2");
 }
 
 :root{
@@ -22,7 +22,7 @@
 }
 
 body{
-    background: url("../assets/bg.png") no-repeat center center;
+    background: url("../assets/bg.avif") no-repeat center center;
     font-family: var(--font-klick-regular);
     color: rgb(0, 0, 0);
     background-size: cover;
