@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "klick-regular";
+  src: url("/fonts/klick-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "klick-blurred";
+  src: url("/fonts/klick-blurred.ttf") format("truetype");
+}
+
+:root{
+    --font-klick-regular: klick-regular; 
+    --font-klick-blurred: klick-blurred;
+
+    --white: rgb(255, 255, 255);
+    --black: rgb(0,0,0);
+}
+
+body{
+    background: url("../assets/bg.png") no-repeat center center;
+    font-family: var(--font-klick-regular);
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.font-blurred{
+    font-family: var(--font-klick-blurred);
+}

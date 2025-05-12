@@ -1,0 +1,44 @@
+---
+const { label,iconSrc = "", style = "" } = Astro.props;
+---
+
+<!-- <div>
+  <button 
+    style={`
+      font-family: var(--font-klick-regular);
+      padding: 8px 15px;
+      border: none;
+      background-color: white;
+      color: black;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 21px;
+      margin-right: 20px;
+      ${style}
+    `}
+  >{iconSrc && <img src={iconSrc} alt="icon" style="width: 20px; height: 20px;" />}
+  {label}
+  </button>
+</div> -->
+<div>
+  <button 
+    style={`
+      font-family: var(--font-klick-regular);
+      padding: 8px 15px;
+      border: none;
+      background-color: white;
+      color: black;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 21px;
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      ${style}
+    `}
+  >
+    {label}
+    {iconSrc && <img src={iconSrc} alt="icon" style="width: 20px; height: 20px;" />}
+  </button>
+</div>
