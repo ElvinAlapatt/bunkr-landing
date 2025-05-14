@@ -1,34 +1,40 @@
 ---
 import Button from "./Button.astro";
+import "../styles/button.css" ;
+import "../styles/typo.css" ;
+import "../styles/header.css" ;
 ---
 
 <div>
-  <div style="display: flex; justify-content: center; align-items: center; padding-top:25%">
-    <div style="">
-        <div style="
-            color: white;
-            font-size: 84px;
-            text-align: center;
-            margin-bottom: 10px;
-        ">
+  <div class="one">
+    <div class="two">
+        <div class="three">
           The smart way to not show up.
         </div>
-        <div style="
-            color: white;
-            font-size: 30px;
-            text-align: center;
-            margin-bottom: 20px;
-        ">
+        <div class="mobile-text">
+          The Smart<br />
+          way to<br />
+          not show up.
+        </div>
+        <div class="tab-text">
+          The Smart way to not<br />
+          show up.
+        </div>
+        <div class="four">
           We crunch the numbers so you can ditch the class—not the semester.
+        </div>
+        <div class="mob-text2">
+          We crunch the numbers so you can ditch the<br />
+          class—not the semester.
+        </div>
+        <div class="tab-text2">
+          We crunch the numbers so you can ditch the class—not the <br />
+          semester.
         </div>
       </div>
   </div>
-  <div style="display: flex; justify-content: center; align-items: center;">
-    <Button label="Download App" iconSrc="/download.svg"/>
-    <Button
-      style="background-color:rgba(0, 0, 0, 0.6); color: white; background-blend-mode: color-burn;"
-      label="Learn More"
-    />
+  <div class="five">
+    <Button label="Download Apk" iconSrc="/download.svg"/>
+    <Button class="six" label="Learn More"/>
   </div>
 </div>
-<!-- padding-top: 25%; -->

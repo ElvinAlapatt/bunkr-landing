@@ -1,0 +1,158 @@
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35%;
+  margin-bottom: 40px;
+}
+
+.mobile-text {
+  display: none;
+}
+.tab-text {
+  display: none;
+}
+
+.mob-text2 {
+  display: none;
+}
+
+.tab-text2 {
+  display: none;
+}
+.three {
+  color: white;
+  font-size: 84px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.four {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: var(--font-klick-blurred);
+}
+.tab-text2 {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  /*Mobile width respo code*/
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70%;
+    margin-bottom: 40px;
+    margin-right: 14px;
+    margin-left: 14px;
+    text-align: center;
+  }
+  .three {
+    display: none;
+  }
+  .mobile-text {
+    color: white;
+    font-size: 68px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .four {
+    display: none;
+  }
+  .mob-text2 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    font-family: var(--font-klick-blurred);
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 701px) {
+  /*TAB width respo code*/
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70%;
+    margin-bottom: 40px;
+    margin-right: 14px;
+    margin-left: 14px;
+    text-align: center;
+  }
+  .three {
+    display: none;
+  }
+  .mobile-text {
+    display: none;
+  }
+  .tab-text {
+    color: white;
+    font-size: 84px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .four {
+    display: none;
+  }
+
+  .mob-text2 {
+    display: none;
+  }
+
+  .tab-text2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-klick-blurred);
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1001px) { /*Laptop Respo*/
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45%;
+    margin-bottom: 40px;
+  }
+  
+  .mobile-text {
+    display: none;
+  }
+  .tab-text {
+    display: none;
+  }
+  
+  .mob-text2 {
+    display: none;
+  }
+  
+  .tab-text2 {
+    display: none;
+  }
+  .three {
+    color: white;
+    font-size: 84px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .four {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-klick-blurred);
+  }
+  .tab-text2 {
+    display: none;
+  }
+}
