@@ -20,7 +20,9 @@
     --white: rgb(255, 255, 255);
     --black: rgb(0,0,0);
 }
-
+html{
+  overflow-y: hidden;
+}
 body{
     background: url("../assets/bg.avif") no-repeat center center;
     font-family: var(--font-klick-regular);
@@ -39,6 +41,7 @@ body{
   body{
     background: url("../assets/bg_mob.avif") no-repeat center center;
     background-size: cover;
+
   }
 }
 
